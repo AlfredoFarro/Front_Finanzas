@@ -1,0 +1,165 @@
+.title{
+    margin: 0;
+    width: 100%;
+    padding: 0;    
+    color: yellow;
+    background-color: #111;
+    text-align: center;
+    font-size: 50px;
+}
+
+.button{
+    background-color: aquamarine;
+    width: 300px;
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-left: 300px;
+    margin-top: 1rem;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.input2{
+    display: flex;
+    flex-direction: column;
+}
+input, select{
+    padding: 1rem;
+    border-radius: 5px;
+}
+.calculator{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 90%;
+    margin: 2rem auto;
+}
+.form__inputs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.calculator__inputs{
+    display: flex;
+    flex-direction: column;
+}
+.calculator__options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form__options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    border: 1px solid black;
+}
+.form__options__mount{
+    display: flex;
+    gap: 3rem;
+}
+
+/* 
+
+.split{
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+
+.left {
+
+    left: 0;
+
+} */
+/* 
+.right {
+    right: 0;
+}
+.centered1 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.centered2 {
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.menu{
+    background-color: #111;
+    padding: 0;
+    margin: 0;
+    height: 30%;
+    width: 100%;
+    position: fixed;
+
+}
+h1{
+    font-size: 50px;
+}
+li{
+    border:2px solid red;
+    padding: .5em;
+}
+
+h6{
+    font-size:  40px;
+}
+.centered button{
+    border-radius: 6px;
+}
+.button1{
+    background-color: rgb(93, 218, 21);
+    padding: 10px 40px;
+    margin-left: 35%;
+    position: center;
+}
+form{
+    text-align: left;
+}
+form2{
+    text-align: right;
+}
+.tab{
+    display: inline-block;
+    margin-left: 450px;
+}
+.tab2{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+input[type=text], select {
+    width: 40%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+ */
